@@ -1,0 +1,91 @@
+/* Reponsive */
+
+
+/* PC */
+
+@media(min-width:64em) {}
+
+
+/* Talet (Ipad) */
+
+@media(min-width:46.25em) and (max-width:63.9375em) {}
+
+
+/* Tablet & mobile  */
+
+@media(max-width:63.9375em) {
+    .btn {
+        padding: 15px 16px;
+    }
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+    .contact-form .form-control {
+        padding: 15px;
+        font-size: 16px;
+    }
+    #footer .social-list {
+        font-size: 48px;
+    }
+    #footer .social-list a {
+        margin: 0 8px;
+    }
+    #footer .copyright a {
+        display: inline-block;
+        padding: 15px 0;
+    }
+    .contact-info {
+        line-height: 2;
+    }
+    .contact-submit-btn {
+        font-size: 16px;
+    }
+}
+
+
+/* Mobile */
+
+@media(max-width:46.1875em) {
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    #nav {
+        display: block;
+    }
+    #nav>li {
+        display: block;
+    }
+    #nav>li:first-child {
+        display: inline-block;
+    }
+    #nav li a {
+        padding: 1px 24px;
+    }
+    #nav .subnav {
+        position: inherit;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #content .menber-img {
+        width: 60%;
+    }
+    .contact-form {
+        margin-top: 32px;
+    }
+}
